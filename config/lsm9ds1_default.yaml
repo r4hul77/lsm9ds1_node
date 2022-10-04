@@ -1,0 +1,8 @@
+lsm9ds1_node:
+  dev_path: "/dev/i2c-1"
+  frame_id: "/imu_link"
+  accelerometer_address: 0x6a
+  magnetometer_address: 0x1c
+  linear_accleration_stddev: 1
+  angular_velocity_stddev: 1
+  default_orientation: [0, 1, 0]
